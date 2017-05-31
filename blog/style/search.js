@@ -83,7 +83,7 @@ function prepareMarkerData(hit, index, hits) {
   if (index<10) newindex = (index+1).toString();
   return {
     label: newindex,
-    title: ""
+    title: "test text"
   }
 }
 
