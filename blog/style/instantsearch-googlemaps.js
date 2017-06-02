@@ -2457,7 +2457,7 @@
                     var t = e.mapHolderRef,
                         r = e.anchorHolderRef,
                         n = new google.maps.Marker(h["default"](e, O));
-                        n.addListener('click', function() {alert(e.label);});
+                        n.addListener('click', function() {scrollToAnchor(e.label);});
                     return r ? "MarkerClusterer" === r.getAnchorType() && r.getAnchor().addMarker(n) : n.setMap(t.getMap()), n
                 }
             }, {
