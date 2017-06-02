@@ -22,6 +22,7 @@ search.addWidget(
 );
 
 var hitTemplate =
+  '<a name="{{hit_number}}"/>' +
   '<div class="hit col-sm-4">' +
   '<div class="pictures-wrapper">' +
     '<div class="{{featured_flag}}"><span>FEATURED</span></div>' +
@@ -30,7 +31,6 @@ var hitTemplate =
   '</div>' +
   '<div class="infos">' +
   '<a href="{{medium_url}}"><h4 class="media-heading">{{hit_number}} . {{{_highlightResult.name.value}}}</h4></a>' +
-//  '<p>{{room_type}} - {{{_highlightResult.city.value}}}, {{{_highlightResult.country.value}}}</p>' +
   '<p>{{room_type}}</p>' +
   '</div>' +
   '</div>';
