@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "strokeColor": "blue",
-        "link":"royalcanalgreenway.ie"
+        "link":"royalcanalgreenway.ie",
+        "name":"Royal Canal Greenway"
       },            
       "geometry": {
         "type": "LineString",
