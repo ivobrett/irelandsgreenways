@@ -29,7 +29,7 @@
     //   map: map
     // });
 
-    map.data.loadGeoJson('https://storage.googleapis.com/mapsdevsite/json/google.json');
+    map.data.loadGeoJson('https://ivobrett.github.io/irelandsgreenways/html/irishgreenways.json');
 
     map.data.setStyle(function (feature) {
         var strokeColor = feature.getProperty('strokeColor');
