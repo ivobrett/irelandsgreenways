@@ -3,12 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},      
-      "style":{
-        "fill":"red",
-        "stroke-width":"3",
-        "fill-opacity":0.6
-      },      
+      "properties": {"strokeColor": "#FF0000"},            
       "geometry": {
         "type": "LineString",
         "coordinates": [
