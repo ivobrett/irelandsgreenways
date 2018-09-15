@@ -40,7 +40,8 @@
     });
 
     map.data.addListener('click', function(event) {
-      location.href = "/index.php/page/"+ event.feature.getProperty('link');
+//      location.href = "/index.php/page/"+ event.feature.getProperty('link');
+      location.href = event.feature.getProperty('link');
     });
     map.data.addListener('mouseover', function(event) {
 
