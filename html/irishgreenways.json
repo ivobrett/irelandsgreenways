@@ -1,10 +1,13 @@
-//built with http://geojson.io/#map=8/53.496/-7.679
 {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "color": "blue",
+        "rank": "7",
+        "ascii": "71"
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
