@@ -3,11 +3,12 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "color": "blue",
-        "rank": "7",
-        "ascii": "71"
-      },
+      "properties": {},      
+      "style":{
+        "fill":"red",
+        "stroke-width":"3",
+        "fill-opacity":0.6
+      }      
       "geometry": {
         "type": "LineString",
         "coordinates": [
